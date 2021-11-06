@@ -1,8 +1,8 @@
 # Correlation-and-minimum-variance-portfolio
 This application is meant to help retail investors guide their portfolio building decisions
-It performs two jobs:
-  (1) Calculate and output the correlation between input stocks
-  (2) Output the minimum variance portfolio for a given target average yearly return
+It performs two jobs:<br />
+  (1) Calculate and output the correlation between input stocks.<br />
+  (2) Output the minimum variance portfolio for a given target average yearly return.<br />
 The application achieves this by extracting the closing price of each input stock from yahoo finances
 using the yfinance package by Ran Aroussi. From the closing price data, corr_minvar.py extracts the
 average yearly returns and variance of each input stock, as well as the correlation among these.

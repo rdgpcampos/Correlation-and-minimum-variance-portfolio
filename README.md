@@ -18,11 +18,11 @@ ticker2,...<br />
 ticker3,...<br />
 ...<br />
 
-The following optional arguments can also be provided:
--span initial_year final_year ........ Initial and final years from which data will be collected (default: 2010 2020)
--max_stock_price P ................... Set maximum price for a stock to be included in the analysis (default: 100.0)
--o_avg True/False .................... Output average yearly return of each stock (default: False)
--o_var True/False .................... Output variance of each stock (default: False)
+The following optional arguments can also be provided:<br />
+-span initial_year final_year ........ Initial and final years from which data will be collected (default: 2010 2020)<br />
+-max_stock_price P ................... Set maximum price for a stock to be included in the analysis (default: 100.0)<br />
+-o_avg True/False .................... Output average yearly return of each stock (default: False)<br />
+-o_var True/False .................... Output variance of each stock (default: False)<br />
 
 The data downloaded from yahoo finances is stored in savefiles as a pickled file. That way, as long as
 the same tickers (order matters) and span are used, the data will not need to be downloaded again.

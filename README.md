@@ -11,12 +11,12 @@ It then builds an optimum portfolio using the extracted data, given a target yea
 To use the application, simply type
 $ python corr_minvar.py Stocks.csv [t]
 in the application's main directory, where Stocks.csv is an input file containing the tickers of all
-input stocks. This input file must be of the following format:
----header---
-ticker1,...
-ticker2,...
-ticker3,...
-...
+input stocks. This input file must be of the following format:<br />
+---header---<br />
+ticker1,...<br />
+ticker2,...<br />
+ticker3,...<br />
+...<br />
 
 The following optional arguments can also be provided:
 -span initial_year final_year ........ Initial and final years from which data will be collected (default: 2010 2020)

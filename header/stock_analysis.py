@@ -62,7 +62,7 @@ def stock_average( returns: list, stock_list: list, t_avg: float ):
     for stock in tmp_returns:
         tmp_mean = np.nanmean(stock,dtype = np.float64)*100.0
         tmp_pymean = tmp_mean.item()
-        if not (math.isnan(tmp_mean) 
+        if (not math.isnan(tmp_mean) 
                 and tmp_pymean>t_avg-10.0 
                 and tmp_pymean<t_avg+10.0):
             stock_list[j].mean = tmp_mean

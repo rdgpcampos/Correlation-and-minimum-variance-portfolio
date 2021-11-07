@@ -8,7 +8,7 @@ using the yfinance package by Ran Aroussi. From the closing price data, corr_min
 average yearly returns and variance of each input stock, as well as the correlation among these.
 It then builds an optimum portfolio using the extracted data, given a target yearly average return.
 
-To use the application, simply type
+To use the application, simply type<br />
 $ python corr_minvar.py Stocks.csv [t]
 in the application's main directory, where Stocks.csv is an input file containing the tickers of all
 input stocks. This input file must be of the following format:<br />
@@ -17,6 +17,9 @@ ticker1,...<br />
 ticker2,...<br />
 ticker3,...<br />
 ...<br />
+
+An easy test can be done with the following command<br />
+$ python corr_minvar.py test_portfolio.csv 15.0
 
 The following optional arguments can also be provided:<br />
 -span initial_year final_year ........ Initial and final years from which data will be collected (default: 2010 2020)<br />
